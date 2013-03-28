@@ -1,4 +1,4 @@
-= fizz-buzz
+= FizzBuzz
 
 == Why?
 
@@ -11,3 +11,7 @@ With that in mind, I wrote down this solution, think on:
 
 * TDD
 * putting it on the githubs
+
+== Any other solutions?
+
+Let me know any other solutions you may think.
