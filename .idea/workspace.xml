@@ -2,23 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35ef77d2-e012-4d51-8365-f1cef23ca09c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Processor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Buzz.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Buzz.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/BuzzTest.java" afterPath="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/BuzzTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Fizz.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Fizz.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/FizzBuzz.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/FizzBuzz.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzBuzzTest.java" afterPath="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzBuzzTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzTest.java" afterPath="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IntroducaoArquiteturaDesignDSoftware.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364149682835" ignored="false" />
     <file path="/sample.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364149681185" ignored="false" />
-    <file path="/FizzBuzzTest.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364435247053" ignored="false" />
+    <file path="/FizzBuzzTest.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364438880749" ignored="false" />
     <file path="/fragment.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364434722366" ignored="false" />
-    <file path="/FizzBuzz.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364431261128" ignored="false" />
-    <file path="/FizzTest.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364429669192" ignored="false" />
-    <file path="/Fizz.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364426983636" ignored="false" />
-    <file path="/BuzzTest.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364390848921" ignored="false" />
-    <file path="/Buzz.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364426829071" ignored="false" />
+    <file path="/FizzBuzz.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364439154162" ignored="false" />
+    <file path="/FizzTest.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364438804029" ignored="false" />
+    <file path="/Fizz.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364438235197" ignored="false" />
+    <file path="/BuzzTest.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364438701274" ignored="false" />
+    <file path="/Buzz.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364438260864" ignored="false" />
     <file path="/NumberUtilTest.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364431151144" ignored="false" />
     <file path="/NumberUtil.java" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364431013078" ignored="false" />
-    <file path="/Dummy.txt" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364435946463" ignored="false" />
+    <file path="/Dummy.txt" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364436750268" ignored="false" />
     <file path="/README" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364435656956" ignored="false" />
     <file path="/README.rdoc" changelist="35ef77d2-e012-4d51-8365-f1cef23ca09c" time="1364436679202" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,16 +94,7 @@
       <file leaf-file-name="BuzzTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/BuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzBuzzTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+            <state line="22" column="22" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,45 +103,34 @@
       <file leaf-file-name="FizzTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberUtilTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/util/NumberUtilTest.java">
+      <file leaf-file-name="FizzBuzz.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FizzBuzz.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FizzBuzz.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="9" column="42" selection-start="190" selection-end="190" vertical-scroll-proportion="0.32846716">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Processor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Processor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="6" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
+            <state line="7" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="16" selection-start="523" selection-end="523" vertical-scroll-proportion="0.60301507">
+            <state line="13" column="13" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,6 +146,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Helio Medeiros &lt;helio.cmede..." />
         <option value="Helio Medeiros &lt;helio.cmedeiros@gmail.com&gt;" />
       </list>
     </option>
@@ -180,22 +167,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/br/com/helmed/fizzbuzz/business/test/BuzzTest.java" />
-        <option value="$PROJECT_DIR$/src/br/com/helmed/fizzbuzz/business/Buzz.java" />
-        <option value="$PROJECT_DIR$/src/br/com/helmed/fizzbuzz/business/Fizz.java" />
-        <option value="$PROJECT_DIR$/test/br/com/helmed/fizzbuzz/business/test/FizzTest.java" />
-        <option value="$PROJECT_DIR$/test/br/com/helmed/fizzbuzz/business/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/test/br/com/helmed/fizzbuzz/business/test/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/br/com/helmed/fizzbuzz/util/NumberUtil.java" />
         <option value="$PROJECT_DIR$/src/br/com/helmed/fizzbuzz/business/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/test/br/com/helmed/fizzbuzz/util/NumberUtilTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/helmed/Buzz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Buzz.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/util/NumberUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Processor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Fizz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Buzz.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/BuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -301,10 +288,6 @@
               <option name="myItemId" value="fizzbuzz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -377,10 +360,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fizzbuzz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -703,7 +682,11 @@
       <created>1364436002152</created>
       <updated>1364436002152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a request for contributions at read me file.">
+      <created>1364436754052</created>
+      <updated>1364436754052</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -730,20 +713,20 @@
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6712538" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6712538" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6712538" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721713" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -791,7 +774,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commiting first version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a request for contributions at read me file." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -806,6 +789,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Changed read me, to have a better description about the who." />
     <MESSAGE value="Commiting first version." />
+    <MESSAGE value="Added a request for contributions at read me file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -815,13 +799,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="58" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/util/NumberUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="38" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
@@ -852,27 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Fizz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.2238806">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.21565495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Buzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.17412935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/util/NumberUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.16773163">
@@ -880,30 +836,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/BuzzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzBuzzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/util/NumberUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="212" selection-end="212" vertical-scroll-proportion="0.4379562">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -912,21 +847,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FizzBuzz.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.10948905">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
+        <state line="17" column="6" selection-start="624" selection-end="624" vertical-scroll-proportion="0.620438">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="523" selection-end="523" vertical-scroll-proportion="0.60301507">
+        <state line="16" column="36" selection-start="0" selection-end="553" vertical-scroll-proportion="0.60301507">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Fizz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="258" selection-end="258" vertical-scroll-proportion="0.4368932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Buzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="30" selection-start="130" selection-end="130" vertical-scroll-proportion="0.25485438">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/BuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fizzbuzz/business/test/FizzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/helmed/fizzbuzz/business/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="190" selection-end="190" vertical-scroll-proportion="0.32846716">
           <folding />
         </state>
       </provider>

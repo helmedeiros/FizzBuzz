@@ -1,6 +1,7 @@
 package fizzbuzz.business.test;
 
 import br.com.helmed.fizzbuzz.business.FizzBuzz;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -11,16 +12,24 @@ import static org.junit.Assert.assertEquals;
  * Time: 9:20 PM
  */
 public class FizzBuzzTest {
+
+    private FizzBuzz fizzBuzz;
+
+    @Before
+    public void setUp() throws Exception {
+        fizzBuzz = new FizzBuzz();
+    }
+
     @Test public void shouldREturnFizzBuzzWhenMultipleOf3And5() throws Exception {
-        assertEquals("FizzBuzz", FizzBuzz.process(15));
+        assertEquals("FizzBuzz", fizzBuzz.process(15));
     }
 
     @Test public void shouldREturnFizzWhenMultipleOf3() throws Exception {
-        assertEquals("Fizz", FizzBuzz.process(3));
+        assertEquals("Fizz", fizzBuzz.process(3));
     }
 
     @Test public void shouldREturnBuzzzWhenMultipleOf5() throws Exception {
-        assertEquals("Buzz", FizzBuzz.process(5));
+        assertEquals("Buzz", fizzBuzz.process(5));
     }
 
 }
