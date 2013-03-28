@@ -1,1 +1,12 @@
-This file was created by IntelliJ IDEA 12.0.4 for binding GitHub repository
+fizz-buzz
+
+
+Why?
+In coding dojos, I’m constantly asked to code my solution to the FizzBuzz problem. Its a simple challenging question:
+
+"Write a program that prints the numbers from 1 to 100, but for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”."
+
+With that in mind (and learning new hotkeys from Intellij IDEA), I decided to go a step further:
+
+TDD
+putting it on the githubs
