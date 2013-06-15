@@ -1,0 +1,13 @@
+.DS_Store
+out
+bin
+.idea
+.project
+.classpath
+.settings
+*.iml
+*.iws
+*.ipr
+*.class
+build
+*~
